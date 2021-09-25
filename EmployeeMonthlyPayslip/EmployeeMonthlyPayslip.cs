@@ -34,10 +34,10 @@ namespace EmployeeMonthlyPayslip
                             if (IsValidCommand(command, out var employee))
                             {
                                 _monthlyTaxCalculator.Calculate(employee);
-                                Console.WriteLine($"Employee: {employee.Name} " +
-                                                  $"\ngross income {_monthlyTaxCalculator.MonthlyGrossIncome.ToString("c", CultureInfo.CurrentCulture)}" +
-                                                  $"\ntax income {_monthlyTaxCalculator.MonthlyIncomeTax.ToString("c", CultureInfo.CurrentCulture)}" +
-                                                  $"\nnet income: {_monthlyTaxCalculator.MonthlyNetIncome.ToString("c", CultureInfo.CurrentCulture)}");
+                                Console.WriteLine($"Monthly Payslip for: {employee.Name} " +
+                                                  $"\nGross Monthly Income: {_monthlyTaxCalculator.MonthlyGrossIncome.ToString("c", CultureInfo.CurrentCulture)}" +
+                                                  $"\nMonthly Income Tax: {_monthlyTaxCalculator.MonthlyIncomeTax.ToString("c", CultureInfo.CurrentCulture)}" +
+                                                  $"\nNet Monthly Income: {_monthlyTaxCalculator.MonthlyNetIncome.ToString("c", CultureInfo.CurrentCulture)}");
                             }
                             break;
                         
