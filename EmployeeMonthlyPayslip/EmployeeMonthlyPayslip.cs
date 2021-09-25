@@ -59,13 +59,13 @@ namespace EmployeeMonthlyPayslip
             Console.WriteLine("Payslip calculator terminated");
         }
 
-        private bool IsValidCommand(string command, out Employee employee)
+        public bool IsValidCommand(string command, out Employee employee)
         {
             employee = new Employee();
             
             //Regex split string by space except space inside quotations
             //https://stackoverflow.com/questions/554013/regular-expression-to-split-on-spaces-unless-in-quotes/14892584
-            var regex = new Regex(@"\w+|""[\w\s]*""");
+            var regex = new Regex(@"[\w\.\,\$]+|""[\w\s]*""");
             var inputs = regex.Matches(command).ToList();
 
             if (inputs.Count != 3)

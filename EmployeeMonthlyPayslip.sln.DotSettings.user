@@ -4,5 +4,8 @@
     &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.MonthlyPayslipIncomeTaxTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.TaxCalculatorTests.Monthly_Tax_Threshold_40K&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.TaxCalculatorTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.EmployeeMonthlyPayslipInputTest.Tax_Threshold_Zero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.EmployeeMonthlyPayslipInputTest.Input_Test_Valid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.EmployeeMonthlyPayslipInputTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

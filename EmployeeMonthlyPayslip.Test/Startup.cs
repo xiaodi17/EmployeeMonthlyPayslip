@@ -10,6 +10,7 @@ namespace EmployeeMonthlyPayslip.Test
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<ITaxCalculator, MonthlyTaxCalculator>();
+            services.AddTransient<EmployeeMonthlyPayslip>();
         }
     }
 }
