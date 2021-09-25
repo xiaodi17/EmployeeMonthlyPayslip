@@ -1,4 +1,5 @@
 using System;
+using EmployeeMonthlyPayslip.Models.Interface;
 using EmployeeMonthlyPayslip.Service;
 using Xunit;
 
@@ -6,11 +7,11 @@ namespace EmployeeMonthlyPayslip.Test
 {
     public class MonthlyPayslipIncomeTaxTests
     {
-        private readonly MonthlyTaxCalculator _monthlyTaxCalculator;
-
-        public MonthlyPayslipIncomeTaxTests()
+        private readonly ITaxCalculator _monthlyTaxCalculator;
+        
+        public MonthlyPayslipIncomeTaxTests(ITaxCalculator monthlyTaxCalculator)
         {
-            _monthlyTaxCalculator = new MonthlyTaxCalculator();
+            _monthlyTaxCalculator = monthlyTaxCalculator;
         }
 
         [Fact]
