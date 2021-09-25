@@ -27,7 +27,7 @@ namespace EmployeeMonthlyPayslip.Test
             yield return new object[] { "GenerateMonthlyPayslip \"David Ding Lu\" 123456" };
             yield return new object[] { "GenerateMonthlyPayslip \"\" 1" };
             yield return new object[] { "GenerateMonthlyPayslip \"David Lu\" 100000.00" };
-            yield return new object[] { "GenerateMonthlyPayslip \"David Lu\"    100000.00" };
+            yield return new object[] { "generatemonthlypayslip \"David Lu\"    100000.00" };
         }
 
         [Theory]
