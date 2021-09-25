@@ -1,4 +1,5 @@
-﻿using EmployeeMonthlyPayslip.Models;
+﻿using System;
+using EmployeeMonthlyPayslip.Models;
 using EmployeeMonthlyPayslip.Models.Interface;
 
 namespace EmployeeMonthlyPayslip.Service
@@ -13,12 +14,12 @@ namespace EmployeeMonthlyPayslip.Service
         {
             MonthlyGrossIncome = CalculateGrossMonthlyIncome(employee.AnnualSalary);
             MonthlyIncomeTax = CalculateMonthlyIncomeTax(employee.AnnualSalary);
-            MonthlyNetIncome = MonthlyGrossIncome - MonthlyIncomeTax;
+            MonthlyNetIncome = Math.Round(MonthlyGrossIncome - MonthlyIncomeTax, 2);
         }
 
         public decimal CalculateGrossMonthlyIncome(decimal annualSalary)
         {
-            return annualSalary / 12;
+            return Math.Round(annualSalary / 12, 2);
         }
 
         public abstract decimal CalculateMonthlyIncomeTax(decimal annualSalary);
