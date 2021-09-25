@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=affb77d6_002Dd9a7_002D4823_002D961f_002Da19db36d572a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ZeroTaxThreshold" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.MonthlyPayslipIncomeTaxTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.TaxCalculatorTests.Monthly_Tax_Threshold_40K&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5881AA94-5542-49BF-9BE8-7D3EA0EA8E02::.NETCoreApp,Version=v3.1::EmployeeMonthlyPayslip.Test.TaxCalculatorTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

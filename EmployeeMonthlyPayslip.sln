@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeMonthlyPayslip", "EmployeeMonthlyPayslip\EmployeeMonthlyPayslip.csproj", "{E39D389E-290A-469F-BC7D-B3E5D897D73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeMonthlyPayslip.Test", "EmployeeMonthlyPayslip.Test\EmployeeMonthlyPayslip.Test.csproj", "{5881AA94-5542-49BF-9BE8-7D3EA0EA8E02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E39D389E-290A-469F-BC7D-B3E5D897D73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39D389E-290A-469F-BC7D-B3E5D897D73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39D389E-290A-469F-BC7D-B3E5D897D73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39D389E-290A-469F-BC7D-B3E5D897D73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5881AA94-5542-49BF-9BE8-7D3EA0EA8E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5881AA94-5542-49BF-9BE8-7D3EA0EA8E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5881AA94-5542-49BF-9BE8-7D3EA0EA8E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5881AA94-5542-49BF-9BE8-7D3EA0EA8E02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
