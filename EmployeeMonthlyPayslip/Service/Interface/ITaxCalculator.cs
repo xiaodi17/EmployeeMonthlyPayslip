@@ -1,4 +1,6 @@
-﻿namespace EmployeeMonthlyPayslip.Models.Interface
+﻿using EmployeeMonthlyPayslip.Models;
+
+namespace EmployeeMonthlyPayslip.Service.Interface
 {
     public interface ITaxCalculator
     {

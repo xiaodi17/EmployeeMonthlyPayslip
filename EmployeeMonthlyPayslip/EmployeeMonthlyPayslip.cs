@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using EmployeeMonthlyPayslip.Models;
 using EmployeeMonthlyPayslip.Models.Interface;
+using EmployeeMonthlyPayslip.Service.Interface;
 
 namespace EmployeeMonthlyPayslip
 {

@@ -1,6 +1,7 @@
 ﻿using System;
 using EmployeeMonthlyPayslip.Models;
 using EmployeeMonthlyPayslip.Models.Interface;
+using EmployeeMonthlyPayslip.Service.Interface;
 
 namespace EmployeeMonthlyPayslip.Service
 {

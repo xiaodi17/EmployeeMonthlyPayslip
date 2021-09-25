@@ -1,6 +1,7 @@
 ﻿using EmployeeMonthlyPayslip.Models;
 using EmployeeMonthlyPayslip.Models.Interface;
 using EmployeeMonthlyPayslip.Service;
+using EmployeeMonthlyPayslip.Service.Interface;
 using Xunit;
 
 namespace EmployeeMonthlyPayslip.Test
